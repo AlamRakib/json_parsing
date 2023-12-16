@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearlayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#EFEAB9"
+        android:layout_margin="15dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/CoverInameId"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            >
+
+        </ImageView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <TextView
+                android:id="@+id/nameTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shamsul Alam Rakib"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/mobileTextViewId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01796278459"
+                android:gravity="center"
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
